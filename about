@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ondin Clothing - Online Store</title>
+  <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" alt="logo">
+        <nav>
+          <ul>
+            <li><a href="home">Home</a></li>
+            <li><a href="shop">Shop</a></li>
+            <li><a href="arrivals">New Arrivals</a></li>
+            <li>
+              <a href="#">Collections</a>
+              <ul class="submenu">
+                <li><a href="dresses">Dresses</a></li>
+                <li><a href="shirts">Shirts & Blouses</a></li>
+                <li><a href="pants">Pants & Jeans</a></li>
+                <li><a href="accessories">Accessories</a></li>
+              </ul>
+            </li>
+            <li><a href="sale">Sale</a></li>
+            <li><a href="about">About Us</a></li>
+            <li><a href="contact">Contact Us</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <section class="about-us">
+
+        <div class="about-description">
+            <img src="img/about.png" alt="About Us Image">
+            <p>Welcome to Joane O. Clothing, your go-to destination for fashionable and high-quality clothing and accessories. Our mission is to provide our customers with stylish and comfortable pieces that enhance their confidence and express their unique style.</p>
+
+            <p>At Joan O., we believe in the power of fashion to inspire and empower. Our curated collections are designed to cater to diverse tastes and preferences, ensuring that everyone can find something they love.</p>
+        </div>
+
+        <div class="our-values">
+            <h3>Our Values</h3>
+
+            <ul>
+                <li>Quality: We are committed to providing top-notch quality in every product we offer.</li>
+                <li>Style: Our collections are curated to reflect the latest trends and timeless classics.</li>
+                <li>Customer Satisfaction: Your satisfaction is our priority, and we strive to exceed your expectations.</li>
+                <li>Community: We believe in building a positive and supportive community of fashion enthusiasts.</li>
+            </ul>
+        </div>
+    </section>
+
+    
+      
+      
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ondin Clothing - Online Store</title>
+  <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" alt="logo">
+        <nav>
+          <ul>
+            <ul>
+              <li><a href="home">Home</a></li>
+              <li><a href="shop">Shop</a></li>
+              <li><a href="arrivals">New Arrivals</a></li>
+              <li>
+                <a href="#">Collections</a>
+                <ul class="submenu">
+                  <li><a href="dresses">Dresses</a></li>
+                  <li><a href="shirts">Shirts & Blouses</a></li>
+                  <li><a href="pants">Pants & Jeans</a></li>
+                  <li><a href="accessories">Accessories</a></li>
+                </ul>
+              </li>
+              <li><a href="sale">Sale</a></li>
+              <li><a href="about">About Us</a></li>
+              <li><a href="contact">Contact Us</a></li>
+            </ul>
+          </ul>
+        </nav>
+      </header>
+
+      <section class="hero">
+        <h1>Welcome to <span>Joane O.</span> Clothing</h1>
+        <p>Discover the latest trends and timeless styles at our online store. <br>
+          From elegant dresses to comfortable everyday wear, we have something for every occasion.</p>
+        <a href="shop" class="cta-button">Shop Now</a>
+         <br>
+         <br>
+         <br>
+        <h2>Featured Products</h2>
+    </section>
+
+    <section class="featured-product">
+  
+      <div class="product">
+          <img src="img/floral.jpg" alt="Product 1">
+          <h3>Stylish Floral Dress</h3>
+          <p class="price">$49.99</p>
+          <a href="shop.html" class="cta-button">View Details</a>
+      </div>
+  
+      <div class="product">
+          <img src="img/classic.jpg" alt="Product 2">
+          <h3>Classic White Shirt</h3>
+          <p class="price">$29.99</p>
+          <a href="shop.html" class="cta-button">View Details</a>
+      </div>
+  
+      <div class="product">
+          <img src="img/jeans.jpg" alt="Product 3">
+          <h3>Comfortable Denim Jeans</h3>
+          <p class="price">$39.99</p>
+          <a href="shop.html" class="cta-button">View Details</a>
+      </div>
+  </section>
+
+    <section class="newsletter">
+        <h2>Subscribe to Our Newsletter</h2>
+        <p>Stay updated on new arrivals, exclusive offers, and fashion tips by subscribing to our newsletter.</p>
+        <form action="subscribe.php" method="post">
+            <input type="email" name="email" placeholder="Your Email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+      
+</body>
+</html>
