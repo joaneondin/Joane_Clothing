@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ondin Clothing - Online Store</title>
+  <link rel="stylesheet" href="accessories.css">
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" alt="logo">
+        <nav>
+          <ul>
+            <li><a href="home">Home</a></li>
+            <li><a href="shop">Shop</a></li>
+            <li><a href="arrivals">New Arrivals</a></li>
+            <li>
+              <a href="#">Collections</a>
+              <ul class="submenu">
+                <li><a href="dresses">Dresses</a></li>
+                <li><a href="shirts">Shirts & Blouses</a></li>
+                <li><a href="pants">Pants & Jeans</a></li>
+                <li><a href="accessories">Accessories</a></li>
+              </ul>
+            </li>
+            <li><a href="sale">Sale</a></li>
+            <li><a href="about">About Us</a></li>
+            <li><a href="contact">Contact Us</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <section class="accessories">
+        <h2>Accessories</h2>
+
+        <div class="accessory-item">
+            <img src="img/stylish.jpg" alt="Stylish Leather Handbag">
+            <h3>Stylish Leather Handbag</h3>
+            <p class="description">Complete your look with this chic and versatile leather handbag.</p>
+            <p class="price">$49.99</p>
+            <a href="#" class="cta-button">Add to Cart</a>
+        </div>
+
+        <div class="accessory-item">
+            <img src="img/sunglasses.jpg" alt="Classic Sunglasses">
+            <h3>Classic Sunglasses</h3>
+            <p class="description">Stay cool and stylish with these classic sunglasses.</p>
+            <p class="price">$19.99</p>
+            <a href="#" class="cta-button">Add to Cart</a>
+        </div>
+
+        <div class="accessory-item">
+            <img src="img/watch.jpg" alt="Elegant Wristwatch">
+            <h3>Elegant Wristwatch</h3>
+            <p class="description">Add a touch of sophistication with this elegant wristwatch.</p>
+            <p class="price">$39.99</p>
+            <a href="#" class="cta-button">Add to Cart</a>
+        </div>
+
+    </section>
+    
+
+      
+</body>
+</html>
