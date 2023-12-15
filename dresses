@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ondin Clothing - Online Store</title>
+  <link rel="stylesheet" href="dresses.css">
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" alt="logo">
+        <nav>
+          <ul>
+            <li><a href="home">Home</a></li>
+            <li><a href="shop">Shop</a></li>
+            <li><a href="arrivals">New Arrivals</a></li>
+            <li>
+              <a href="#">Collections</a>
+              <ul class="submenu">
+                <li><a href="dresses">Dresses</a></li>
+                <li><a href="shirts">Shirts & Blouses</a></li>
+                <li><a href="pants">Pants & Jeans</a></li>
+                <li><a href="accessories">Accessories</a></li>
+              </ul>
+            </li>
+            <li><a href="sale">Sale</a></li>
+            <li><a href="about">About Us</a></li>
+            <li><a href="contact">Contact Us</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section class="dresses">
+        <h2>Dresses</h2>
+
+        <div class="dress-item">
+            <img src="img/floral.jpg" alt="Elegant Floral Dress">
+            <h3>Elegant Floral Dress</h3>
+            <p class="description">A stunning floral dress perfect for special occasions.</p>
+            <p class="price">$59.99</p>
+            <a href="#" class="cta-button">Add to Cart</a>
+        </div>
+
+        <div class="dress-item">
+            <img src="img/casual.jpg" alt="Casual Striped Midi Dress">
+            <h3>Casual Striped Midi Dress</h3>
+            <p class="description">Stay comfortable and stylish with this casual striped midi dress.</p>
+            <p class="price">$39.99</p>
+            <a href="#" class="cta-button">Add to Cart</a>
+        </div>
+
+        <div class="dress-item">
+            <img src="img/chic.jpg" alt="Chic Off-Shoulder Maxi Dress">
+            <h3>Chic Off-Shoulder Maxi Dress</h3>
+            <p class="description">Make a statement with this chic off-shoulder maxi dress.</p>
+            <p class="price">$79.99</p>
+            <a href="#" class="cta-button">Add to Cart</a>
+        </div>
+    </section>
+      
+</body>
+</html>

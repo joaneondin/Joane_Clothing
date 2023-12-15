@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ondin Clothing - Online Store</title>
+  <link rel="stylesheet" href="shirts.css">
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" alt="logo">
+        <nav>
+          <ul>
+            <li><a href="home">Home</a></li>
+            <li><a href="shop">Shop</a></li>
+            <li><a href="arrivals">New Arrivals</a></li>
+            <li>
+              <a href="#">Collections</a>
+              <ul class="submenu">
+                <li><a href="dresses">Dresses</a></li>
+                <li><a href="shirts">Shirts & Blouses</a></li>
+                <li><a href="pants">Pants & Jeans</a></li>
+                <li><a href="accessories">Accessories</a></li>
+              </ul>
+            </li>
+            <li><a href="sale">Sale</a></li>
+            <li><a href="about">About Us</a></li>
+            <li><a href="contact">Contact Us</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <section class="shirts-blouses">
+        <h2>Shirts & Blouses</h2>
+
+        <div class="shirt-blouse-item">
+            <img src="img/classic.jpg" alt="Classic White Shirt">
+            <h3>Classic White Shirt</h3>
+            <p class="description">A timeless and versatile white shirt for any occasion.</p>
+            <p class="price">$29.99</p>
+            <a href="#" class="cta-button">Add to Cart</a>
+        </div>
+
+        <div class="shirt-blouse-item">
+            <img src="img/chic floral.jpg" alt="Chic Floral Blouse">
+            <h3>Chic Floral Blouse</h3>
+            <p class="description">Add a touch of elegance with this chic floral blouse.</p>
+            <p class="price">$39.99</p>
+            <a href="#" class="cta-button">Add to Cart</a>
+        </div>
+
+        <div class="shirt-blouse-item">
+            <img src="img/striped.jpg" alt="Striped Casual Shirt">
+            <h3>Striped Casual Shirt</h3>
+            <p class="description">Stay stylish and comfortable with this casual striped shirt.</p>
+            <p class="price">$34.99</p>
+            <a href="#" class="cta-button">Add to Cart</a>
+        </div>
+
+    </section>
+      
+</body>
+</html>

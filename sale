@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ondin Clothing - Online Store</title>
+  <link rel="stylesheet" href="sale.css">
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" alt="logo">
+        <nav>
+          <ul>
+            <li><a href="home">Home</a></li>
+            <li><a href="shop">Shop</a></li>
+            <li><a href="arrivals">New Arrivals</a></li>
+            <li>
+              <a href="#">Collections</a>
+              <ul class="submenu">
+                <li><a href="dresses">Dresses</a></li>
+                <li><a href="shirts">Shirts & Blouses</a></li>
+                <li><a href="pants">Pants & Jeans</a></li>
+                <li><a href="accessories">Accessories</a></li>
+              </ul>
+            </li>
+            <li><a href="sale">Sale</a></li>
+            <li><a href="about">About Us</a></li>
+            <li><a href="contact">Contact Us</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <section class="sale">
+        <h2>Sale</h2>
+
+        <div class="sale-item">
+            <img src="img/jacket.jpg" alt="Stylish Jacket">
+            <h3>Stylish Jacket</h3>
+            <p class="original-price">$79.99</p>
+            <p class="discounted-price">$49.99</p>
+            <a href="#" class="cta-button">Shop Now</a>
+        </div>
+
+        <div class="sale-item">
+            <img src="img/sneakers.jpg" alt="Casual Sneakers">
+            <h3>Casual Sneakers</h3>
+            <p class="original-price">$59.99</p>
+            <p class="discounted-price">$39.99</p>
+            <a href="#" class="cta-button">Shop Now</a>
+        </div>
+
+        <div class="sale-item">
+            <img src="img/summer.jpg" alt="Summer Dress">
+            <h3>Summer Dress</h3>
+            <p class="original-price">$69.99</p>
+            <p class="discounted-price">$34.99</p>
+            <a href="#" class="cta-button">Shop Now</a>
+        </div>
+    </section>
+    
+      
+      
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ondin Clothing - Online Store</title>
+  <link rel="stylesheet" href="pants.css">
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" alt="logo">
+        <nav>
+          <ul>
+            <li><a href="home">Home</a></li>
+            <li><a href="shop">Shop</a></li>
+            <li><a href="arrivals">New Arrivals</a></li>
+            <li>
+              <a href="#">Collections</a>
+              <ul class="submenu">
+                <li><a href="dresses">Dresses</a></li>
+                <li><a href="shirts">Shirts & Blouses</a></li>
+                <li><a href="pants">Pants & Jeans</a></li>
+                <li><a href="accessories">Accessories</a></li>
+              </ul>
+            </li>
+            <li><a href="sale">Sale</a></li>
+            <li><a href="about">About Us</a></li>
+            <li><a href="contact">Contact Us</a></li>
+          </ul>
+          </ul>
+        </nav>
+      </header>
+
+      <section class="pants-jeans">
+        <h2>Pants & Jeans</h2>
+
+        <div class="pants-jeans-item">
+            <img src="img/slim.jpg" alt="Slim Fit Denim Jeans">
+            <h3>Slim Fit Denim Jeans</h3>
+            <p class="description">Stay trendy with these slim fit denim jeans for a modern look.</p>
+            <p class="price">$39.99</p>
+            <a href="#" class="cta-button">Add to Cart</a>
+        </div>
+
+        <div class="pants-jeans-item">
+            <img src="img/khaki.jpg" alt="Comfortable Khaki Pants">
+            <h3>Comfortable Khaki Pants</h3>
+            <p class="description">Versatile and comfortable khaki pants for a classic style.</p>
+            <p class="price">$29.99</p>
+            <a href="#" class="cta-button">Add to Cart</a>
+        </div>
+
+        <div class="pants-jeans-item">
+            <img src="img/blue.jpg" alt="Relaxed Fit Blue Jeans">
+            <h3>Relaxed Fit Blue Jeans</h3>
+            <p class="description">Casual and comfortable blue jeans for a laid-back look.</p>
+            <p class="price">$44.99</p>
+            <a href="#" class="cta-button">Add to Cart</a>
+        </div>
+    </section>
+</body>
+</html>
